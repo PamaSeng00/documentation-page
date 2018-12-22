@@ -1,0 +1,93 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 100%;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+
+.keywords{
+    color: rgb(89, 131, 194);
+
+}
+
+.highlight{
+    background: rgb(145, 174, 238);
+}
+
+.header{
+    display: flex;
+    padding: 1em;
+    flex-direction: row-reverse;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+nav{
+    background: rgb(57, 177, 233);
+    padding: 1em;
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    left: -500px;
+    transition: .2s;
+    top: 0;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #ffffffff;
+    padding: .7rem;
+   
+}
+
+.input_heading, .output_heading{
+    display: block;
+    background-color: rgb(136, 172, 240);
+}
+
+.input, .output{
+    background-color: rgb(185, 221, 252)
+}
+
+/* .input_text{
+    padding: 1rem;
+    color: #000080;
+    display: block;
+} */
+/* .nav_heading{
+    
+} */
+
+@media(min-width: 720px){
+.nav{
+    display: block;
+    left: 0;
+    top: 0;
+    width: 30%;
+    overflow-y: scroll;
+}
+
+.logo, .menu {
+    display: none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.container{
+    width: 65%;
+    margin: 0 1em 0 auto;
+}
+} 

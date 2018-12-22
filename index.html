@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="wrapper">
+    <header class="header"> <!--Begin header-->
+
+        <div class="menu" onclick = "opennav()">
+            &#9776
+        <span>Menu</span>
+        </div>
+
+        <div class="logo">
+            LIQUID
+        </div>
+
+        
+    </header> <!--Header ends-->
+
+        <nav class="nav"><!--Nav begins-->
+            <h3 class="nav_heading">LIQUID</h3>
+            <hr>
+            <a href="#">Introduction</a>
+            <a href="#">Operation</a>
+            <a href="#">Tags</a>
+            <a href="#">Whitespace</a>
+            <a href="#">Variations</a>
+            <a href="#">Variables</a>
+            <a href="#">Output</a>
+        </nav> <!--Nav ends-->
+
+       <div class="container">
+
+        <h3>Introduction</h3>
+        <p>Lorem ipsum <strong class="keywords">dolor</strong> sit amet <strong class="keywords">consectetur</strong>, adipisicing elit. Eveniet commodi nam quas, tenetur natus magnam odio inventore architecto sapiente maxime ullam nihil perspiciatis officiis quos eum quis quia unde consequuntur.</p>
+
+       <h3>Objects</h3>
+        <p>Lorem ipsum <strong class="keywords">dolor</strong> sit amet <strong class="keywords">consectetur</strong>, adipisicing elit. Eveniet commodi nam quas, tenetur natus magnam odio inventore architecto sapiente maxime ullam nihil <strong class="highlight">{{</strong> officiis <strong class="highlight"> }}</strong> quos eum quis quia unde consequuntur.</p>
+       
+        <div class="input">
+            <span class="input_heading">Input</span>
+            <p> {{ page.input}} </p>
+        </div>
+
+        <div class="output">
+                <span class="output_heading">output</span>
+                <p> {{ page.input}} </p>
+            </div>
+   
+    </div>
+
+        <script src="scripts/main.js"></script>
+</body>
+</html>
