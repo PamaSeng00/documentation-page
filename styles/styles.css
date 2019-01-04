@@ -30,10 +30,13 @@ body{
 
 .menu{
     cursor: pointer;
+    position: fixed;
+    background: rgb(230, 230, 230);
+    padding: .5em;
 }
 
 nav{
-    background: rgb(57, 177, 233);
+    background: rgb(230, 230, 230);
     padding: 1em;
     position: fixed;
     width: 70%;
@@ -46,7 +49,7 @@ nav{
 nav a{
     display: block;
     text-decoration: none;
-    color: #ffffffff;
+    color: rgb(24, 24, 24);
     padding: .7rem;
    
 }
@@ -60,14 +63,8 @@ nav a{
     background-color: rgb(185, 221, 252)
 }
 
-/* .input_text{
-    padding: 1rem;
-    color: #000080;
-    display: block;
-} */
-/* .nav_heading{
-    
-} */
+
+
 
 @media(min-width: 720px){
 .nav{
